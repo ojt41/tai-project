@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/
+models/
+*.log
+docs/
+.env
+CLAUDE.md
+.claude/

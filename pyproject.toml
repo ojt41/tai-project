@@ -1,0 +1,31 @@
+[project]
+name = "tai-project"
+version = "0.1.0"
+description = "CS-E4805 group project: policy manipulation and excessive token usage in customer-service chatbots"
+requires-python = "==3.12.*"
+dependencies = [
+    "torch",
+    "transformers",
+    "accelerate",
+    "bitsandbytes",
+    "sentence-transformers",
+    "datasets",
+    "pandas",
+    "matplotlib",
+    "tqdm",
+    "jupyterlab",
+    "ipykernel",
+]
+
+[tool.uv]
+package = false
+
+# Triton's V100 (sm_70) is not supported by the default CUDA 13 torch wheels,
+# so take torch from PyTorch's CUDA 12.6 index (also fine for the laptop's RTX 3060).
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
