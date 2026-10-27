@@ -15,6 +15,7 @@ dependencies = [
     "tqdm",
     "jupyterlab",
     "ipykernel",
+    "ipywidgets>=8.1.9",
 ]
 
 [tool.uv]
