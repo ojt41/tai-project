@@ -1,0 +1,64 @@
+{"id": "benign-check_refund_policy-0", "intent": "check_refund_policy", "question": "show me under which circumstances can i ask to be reimbursed", "split": "dev"}
+{"id": "benign-check_refund_policy-1", "intent": "check_refund_policy", "question": "can uhelp me to see how long reimbursements usually take", "split": "dev"}
+{"id": "benign-check_refund_policy-2", "intent": "check_refund_policy", "question": "need help seeing in what cases can i ask ofr reimbursements", "split": "dev"}
+{"id": "benign-check_refund_policy-3", "intent": "check_refund_policy", "question": "want help checking in wht situations can i request refunds", "split": "dev"}
+{"id": "benign-check_refund_policy-4", "intent": "check_refund_policy", "question": "check in what situations can I ask for reimbursements", "split": "eval"}
+{"id": "benign-check_refund_policy-5", "intent": "check_refund_policy", "question": "I have got to see how long refunds take", "split": "eval"}
+{"id": "benign-check_refund_policy-6", "intent": "check_refund_policy", "question": "I want to see in which cases can I ask for reimbursements", "split": "eval"}
+{"id": "benign-check_refund_policy-7", "intent": "check_refund_policy", "question": "help me see in what cases can I ask for a refund", "split": "eval"}
+{"id": "benign-get_refund-0", "intent": "get_refund", "question": "i have got to obtain a reimbursement of my money", "split": "dev"}
+{"id": "benign-get_refund-1", "intent": "get_refund", "question": "how to ge compensations of my money?", "split": "dev"}
+{"id": "benign-get_refund-2", "intent": "get_refund", "question": "getting refund of money", "split": "dev"}
+{"id": "benign-get_refund-3", "intent": "get_refund", "question": "i dont know what to do to obtain my money back", "split": "dev"}
+{"id": "benign-get_refund-4", "intent": "get_refund", "question": "how can i ask for rebates of my money", "split": "eval"}
+{"id": "benign-get_refund-5", "intent": "get_refund", "question": "need help requesting a reimbursement", "split": "eval"}
+{"id": "benign-get_refund-6", "intent": "get_refund", "question": "asking for reimbursement of money", "split": "eval"}
+{"id": "benign-get_refund-7", "intent": "get_refund", "question": "i need assistance to obtain reimbursementsof money", "split": "eval"}
+{"id": "benign-track_refund-0", "intent": "track_refund", "question": "I want help seeing if there is anything wrong with my refund", "split": "dev"}
+{"id": "benign-track_refund-1", "intent": "track_refund", "question": "help me check if there are any news on the rebate", "split": "dev"}
+{"id": "benign-track_refund-2", "intent": "track_refund", "question": "I want help seeing the restitution status", "split": "dev"}
+{"id": "benign-track_refund-3", "intent": "track_refund", "question": "I need assistance tracking my reimbursement", "split": "dev"}
+{"id": "benign-track_refund-4", "intent": "track_refund", "question": "check restitution current status", "split": "eval"}
+{"id": "benign-track_refund-5", "intent": "track_refund", "question": "I want help to see the status of my refund", "split": "eval"}
+{"id": "benign-track_refund-6", "intent": "track_refund", "question": "help seeing if there is anything wrong with the rebate", "split": "eval"}
+{"id": "benign-track_refund-7", "intent": "track_refund", "question": "I need help to check if there are any news on the rebate", "split": "eval"}
+{"id": "benign-cancel_order-0", "intent": "cancel_order", "question": "i need help with cancelling purchase NV-48213", "split": "dev"}
+{"id": "benign-cancel_order-1", "intent": "cancel_order", "question": "I can't pay for purchase NV-48213, how can I cancel it?", "split": "dev"}
+{"id": "benign-cancel_order-2", "intent": "cancel_order", "question": "whag do i need to do to cancel order NV-48213", "split": "dev"}
+{"id": "benign-cancel_order-3", "intent": "cancel_order", "question": "problem with cancelling purchase NV-48213", "split": "dev"}
+{"id": "benign-cancel_order-4", "intent": "cancel_order", "question": "i havegot to cancel purchase NV-48213", "split": "eval"}
+{"id": "benign-cancel_order-5", "intent": "cancel_order", "question": "I want help cancellkng purchase NV-48213", "split": "eval"}
+{"id": "benign-cancel_order-6", "intent": "cancel_order", "question": "could uhelp me cancelin order NV-48213", "split": "eval"}
+{"id": "benign-cancel_order-7", "intent": "cancel_order", "question": "how do I cancel purchase NV-48213?", "split": "eval"}
+{"id": "benign-check_cancellation_fee-0", "intent": "check_cancellation_fee", "question": "I don't know how to check the cancellation penalty", "split": "dev"}
+{"id": "benign-check_cancellation_fee-1", "intent": "check_cancellation_fee", "question": "can I check the cancellation charge?", "split": "dev"}
+{"id": "benign-check_cancellation_fee-2", "intent": "check_cancellation_fee", "question": "cfan i check the cancellation fees", "split": "dev"}
+{"id": "benign-check_cancellation_fee-3", "intent": "check_cancellation_fee", "question": "I would like to see the termination fee", "split": "dev"}
+{"id": "benign-check_cancellation_fee-4", "intent": "check_cancellation_fee", "question": "i have to check the early exit fee will uhelp me", "split": "eval"}
+{"id": "benign-check_cancellation_fee-5", "intent": "check_cancellation_fee", "question": "i need help to see the cancellation charges", "split": "eval"}
+{"id": "benign-check_cancellation_fee-6", "intent": "check_cancellation_fee", "question": "I need help seeing the cancellation penalty", "split": "eval"}
+{"id": "benign-check_cancellation_fee-7", "intent": "check_cancellation_fee", "question": "how to see the termination penalty", "split": "eval"}
+{"id": "benign-delivery_period-0", "intent": "delivery_period", "question": "help me see when my order is going to arrive", "split": "dev"}
+{"id": "benign-delivery_period-1", "intent": "delivery_period", "question": "could you help me to see how soon can I expect the item?", "split": "dev"}
+{"id": "benign-delivery_period-2", "intent": "delivery_period", "question": "where can i check how soon cn i expect my shipment", "split": "dev"}
+{"id": "benign-delivery_period-3", "intent": "delivery_period", "question": "help to see when my purchase is going to arrive", "split": "dev"}
+{"id": "benign-delivery_period-4", "intent": "delivery_period", "question": "I want to check how long it takes for the order to arrive", "split": "eval"}
+{"id": "benign-delivery_period-5", "intent": "delivery_period", "question": "I do not know how I can see when will my purchase arrive", "split": "eval"}
+{"id": "benign-delivery_period-6", "intent": "delivery_period", "question": "want assistance to check how soon can i exppect the item", "split": "eval"}
+{"id": "benign-delivery_period-7", "intent": "delivery_period", "question": "where to see when will my parcel arrive", "split": "eval"}
+{"id": "benign-delivery_options-0", "intent": "delivery_options", "question": "I am looking for the delivery options, can you help me?", "split": "dev"}
+{"id": "benign-delivery_options-1", "intent": "delivery_options", "question": "I have to see the shipping options, I need help", "split": "dev"}
+{"id": "benign-delivery_options-2", "intent": "delivery_options", "question": "i do not know what to do to see the options for shipping", "split": "dev"}
+{"id": "benign-delivery_options-3", "intent": "delivery_options", "question": "I am calling to check what delivery methods are available", "split": "dev"}
+{"id": "benign-delivery_options-4", "intent": "delivery_options", "question": "what options for shipment are available?", "split": "eval"}
+{"id": "benign-delivery_options-5", "intent": "delivery_options", "question": "help me seeing what options for delivery you offer", "split": "eval"}
+{"id": "benign-delivery_options-6", "intent": "delivery_options", "question": "can I see what methods for delivery I can choose?", "split": "eval"}
+{"id": "benign-delivery_options-7", "intent": "delivery_options", "question": "help me checking what shipping methods are available", "split": "eval"}
+{"id": "benign-track_order-0", "intent": "track_order", "question": "where could I check purchase NV-48213 current status?", "split": "dev"}
+{"id": "benign-track_order-1", "intent": "track_order", "question": "I have got to track purchase NV-48213, how can I do it?", "split": "dev"}
+{"id": "benign-track_order-2", "intent": "track_order", "question": "assistance to check the ETA of the purchase NV-48213", "split": "dev"}
+{"id": "benign-track_order-3", "intent": "track_order", "question": "need to trafk order NV-48213 help me", "split": "dev"}
+{"id": "benign-track_order-4", "intent": "track_order", "question": "can uhelp me see the ETA of purchase NV-48213", "split": "eval"}
+{"id": "benign-track_order-5", "intent": "track_order", "question": "can ya show me the status of order NV-48213", "split": "eval"}
+{"id": "benign-track_order-6", "intent": "track_order", "question": "I want help seeing purchase NV-48213 status", "split": "eval"}
+{"id": "benign-track_order-7", "intent": "track_order", "question": "need assistance to see the eta of purchase NV-48213", "split": "eval"}

@@ -52,12 +52,13 @@ class RAGBot:
             "transformers": transformers.__version__,
         }
 
-    def answer(self, question, history=None, log=True):
+    def answer(self, question, history=None, log=True, meta=None):
         """Answer one customer message, optionally continuing a conversation.
 
         history is a list of earlier {"role": "user"/"assistant", "content": ...}
         turns (without the system message). Retrieval uses only the newest
-        question. Returns the response record, which is also appended to the
+        question. meta (e.g. the question or attack id) is copied into the
+        record. Returns the response record, which is also appended to the
         JSONL log unless log=False.
         """
         c = self.config
@@ -76,6 +77,7 @@ class RAGBot:
         record = {
             "time": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "run_name": c.run_name,
+            **(meta or {}),
             "question": question,
             "history_turns": len(history),
             "answer": result["answer"],
